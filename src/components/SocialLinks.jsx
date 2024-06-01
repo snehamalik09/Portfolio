@@ -3,7 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { FaDownload } from "react-icons/fa";
-import resume from "../assets/Resume.pdf"
+import resume from "../assets/SnehaResume.pdf"
 
 const SocialLinks = () => {
 

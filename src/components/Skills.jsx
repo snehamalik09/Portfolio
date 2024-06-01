@@ -30,22 +30,25 @@ const Skills = () => {
         },
         {
             id: 4,
-            imagelink: tailwind,
-            text:"Tailwind",
-            style: 'shadow-black',
-        }, 
+            imagelink: node,
+            text:"Node",
+            style: 'shadow-green-800',
+        },
+        
         {
             id: 5,
             imagelink: react,
             text:"React",
             style: 'shadow-blue-400',
-        }, /*
+        }, 
         {
             id: 6,
-            imagelink: node,
-            text:"Node",
-            style: 'shadow-green-800',
-        },
+            imagelink: tailwind,
+            text:"Tailwind",
+            style: 'shadow-black',
+        }, 
+        
+        /*
         {
             id: 7,
             imagelink: nextjs,
