@@ -54,6 +54,7 @@ const Skills = () => {
             imagelink: nextjs,
             text:"NextJS",
             style: 'shadow-gray-600',
+            this is comment
         }, */
         {
             id: 8,
