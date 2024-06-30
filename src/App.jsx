@@ -9,11 +9,7 @@ import Education from './components/Education.jsx'
 import Experience from './components/Experience.jsx'
 import Footer from './components/Footer.jsx'
 
-/* 
-I have to add a functionality where clicking on download will download the resume
-change the text lorem ipsum wala
-deploy the project
-*/
+
 function App() {
 
   return (

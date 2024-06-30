@@ -9,32 +9,28 @@ const Education = () => {
         {
             id: 1,
             title: "POSTGRADUATION",
-            content1: "Master's of Computer Applications",
-            content2: "Vivekananda Institute Of Professional Studies affiliated by,",
-            content3: "Guru Gobind Singh Indraprastha University",
-            content4 : "Gpa - 9.7"
+            content1: "Master of Computer Applications",
+            content2: "Vivekananda Institute Of Professional Studies affiliated by, GGSIPU",
+            content3 : "SGPA - 9.7"
         },
         {
             id: 2,
             title: "UNDERGRADUATION",
             content1: "Bachelor Of Science (Physical Sciences)",
-            content2: "Kalindi College affiliated by,",
-            content3: "University Of Delhi",
-            content4:  "Cgpa - 8.879"
+            content2: "Kalindi College, University of Delhi",
+            content3:  "CGPA - 8.87"
         },
         {
             id: 3,
             title: "SENIOR SECONDARY EDUCATION",
-            content1: "Siddharth International Public School",
-            content2: "CBSE Board",
-            content3: "Percentage - 82.2%"        
+            content1: "Siddharth International Public School, CBSE",
+            content2: "Percentage - 82.2%"        
         },
         {
             id: 4,
             title: "SECONDARY EDUCATION",
-            content1: "Siddharth International Public School",
-            content2: "CBSE Board",
-            content3: "Percentage - 87%"                
+            content1: "Siddharth International Public School, CBSE",
+            content2: "Percentage - 87%"                
         },
     ]
 
@@ -65,8 +61,8 @@ const Education = () => {
                                 <ul className='list-disc sm:ml-10'>
                                     <li> {item.content1} </li>
                                     <li> {item.content2} </li>
-                                    <li> {item.content3} </li>
-                                    {item.content4 ? <li> {item.content4} </li> : ""} 
+                                    {item.content3 ? <li> {item.content3} </li> : ""},
+                                    {item.content4 ? <li> {item.content4} </li> : "" } 
                                 </ul>
                                 </div> : ""  }
                                 

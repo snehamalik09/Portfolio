@@ -5,8 +5,9 @@ import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
 import node from '../assets/node.png';
 import nextjs from '../assets/nextjs.png';
-import github from '../assets/github.png'; 
+import cplusplus from '../assets/cplusplus.jpg'; 
 import tailwind from '../assets/tailwind.png'; 
+import python from '../assets/p.webp'; 
 
 const Skills = () => {
     const links = [
@@ -47,19 +48,17 @@ const Skills = () => {
             text:"Tailwind",
             style: 'shadow-black',
         }, 
-        
-        /*
         {
             id: 7,
-            imagelink: nextjs,
-            text:"NextJS",
-            style: 'shadow-gray-600',
-            this is comment
-        }, */
+            imagelink: python,
+            text:"Python",
+            style: 'shadow-black',
+        }, 
+        
         {
             id: 8,
-            imagelink: github,
-            text:"Github",
+            imagelink: cplusplus,
+            text:"C++",
             style: 'shadow-black',
         }, 
 

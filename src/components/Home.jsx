@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import HeroImage from '../assets/heroImage.jpeg'
+import HeroImage from '../assets/myHeroImage.jpg'
 import { Link } from 'react-scroll'
-
 const Home = () => {
      
     return (
@@ -9,7 +8,7 @@ const Home = () => {
             <div className=' sm:max-w-screen-lg sm:flex  justify-center items-center mx-auto p-[12]  '>  
         <div className='h-full sm:h-screen sm:flex  justify-center items-center mx-auto sm:p-0 flex-row  gap-[4%] p-10 '>
             <div className='sm:max-w-[30%] justify-center mx-auto item-center flex max-w-[60%] mt-[17%] mb-[10%] sm:my-0'>
-                <img src={HeroImage} alt="My Image" className='rounded-[60%] '/>
+                <img src={HeroImage} alt="My Image" className='rounded-[50%] '/>
             </div>    
 
             <div className='sm:max-w-[60%] max-w-[85%] font-semibold justify-center mx-auto item-center flex flex-col text-sm sm:text-lg' >

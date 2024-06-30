@@ -32,7 +32,7 @@ const Footer = () => {
               <MdOutlineMail />
             </>
           ),
-          href: 'https://mail.google.com'
+          href: 'mailto:snehamalik962003@gmail.com'
         }
       ]
     return (

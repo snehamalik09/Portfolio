@@ -3,7 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { FaDownload } from "react-icons/fa";
-import resume from "../assets/SnehaResume.pdf"
+import resume from "../../Sneha Malik Resume.pdf"
 
 const SocialLinks = () => {
 
@@ -33,7 +33,7 @@ const SocialLinks = () => {
           <MdOutlineMail />
         </>
       ),
-      href: 'https://mail.google.com'
+      href: 'mailto:snehamalik962003@gmail.com'
     },
     {
       id: 4,
